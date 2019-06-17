@@ -1,0 +1,12 @@
+body {
+	display:flex; 
+}
+.container{
+	min-width: 1000px;
+	border: 1px solid black;
+
+}
+.box{
+	background-color: yellow;
+	box-shadow: 3px 10px 32px 25px rgba(0,0,0,0.75);
+}
