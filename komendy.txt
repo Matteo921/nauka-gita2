@@ -1,0 +1,4 @@
+/* Autoprefixer */
+1. Instalacja pluginu npm install --global autoprefixer-cli
+2. Określenie ścieżki autoprefixer-cli css/style.css
+3. Określenie pliku wyjsciowego autoprefixer-cli -o style.prefixed.css style.css
