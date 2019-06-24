@@ -2,3 +2,9 @@
 1. Instalacja pluginu npm install --global autoprefixer-cli
 2. Określenie ścieżki autoprefixer-cli css/style.css
 3. Określenie pliku wyjsciowego autoprefixer-cli -o style.prefixed.css style.css
+/*Nu-html-checker*/
+1. Sprawdzanie pliku html 
+
+"test": "npm run test:html",
+"test:html": "globstar nu-html-checker *.html",
+"build": "nu-html-checker cli -f index.html"
